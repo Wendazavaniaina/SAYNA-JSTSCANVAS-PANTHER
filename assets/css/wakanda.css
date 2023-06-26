@@ -1,0 +1,79 @@
+@import 'style.css';
+
+#btnWakanda {
+    background-color: var(--dark-purple);
+    border-radius: 2px;
+}
+
+
+/*Section wakanda forever*/
+section.wakanda {
+    background: url(../images/Wakanda/Pantherwakanda1.png) no-repeat;
+    background-size: 100%;
+    height: 50vw;
+}
+
+.wakanda .forever {
+    width: 38%;
+    position: relative;
+    top: 35%;
+    left: 14%;
+    animation: fade-in ease-in-out 1s;
+}
+
+.wakanda div h1 {
+    font-family: 'Beyno', sans-serif;
+    font-size: calc(2rem + 1.5vw);
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+
+.wakanda div h2 {
+    font-family: 'Wakanda Forever';
+    letter-spacing: 5px;
+    margin: 15px 0;
+}
+
+.wakanda div p {
+    width: 70%;
+    margin-top: 35px;
+}
+
+.fond-panther {
+    position: absolute;
+    opacity: 0.2;
+}
+
+/*section origines*/
+section.panther-univers {
+    position: relative;
+    padding: 8vw 0;
+    column-count: 2;
+    column-gap: 100px;
+    animation: fade-in ease-in-out 1s;
+}
+
+.panther-univers p {
+    margin-bottom: 25px;
+}
+
+.panther-univers h2 {
+    margin-bottom: 40px;
+}
+
+.panther-univers .origine p:nth-of-type(3), .panther-univers .guerre p:nth-of-type(2) {
+    margin-bottom: 45px;
+}
+
+/*vidéo*/
+.panther-univers .video {
+    margin: 20px;
+    max-width: 100%;
+}
+
+.panther-univers .illustration img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    max-width: 90%;
+}
